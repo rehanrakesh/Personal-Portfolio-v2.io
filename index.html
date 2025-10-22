@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K Rehan Rakesh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated stars background -->
+    <div class="stars" id="stars"></div>
+
+    <!-- Mobile Menu Toggle -->
+    <button class="mobile-menu-toggle" id="mobileMenuToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </button>
+
+    <!-- Sidebar Navigation -->
+    <div class="sidebar" id="sidebar">
+        <div class="sidebar-header">
+            <h1>Rehan Rakesh</h1>
+            <p>Software Developer</p>
+        </div>
+        <ul class="nav-menu">
+            <li class="nav-item active" data-section="profile">
+                <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
+                <span>Profile</span>
+            </li>
+            <li class="nav-item" data-section="experience">
+                <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                <span>Experience</span>
+            </li>
+            <li class="nav-item" data-section="education">
+                <svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+                <span>Education</span>
+            </li>
+            <li class="nav-item" data-section="skills">
+                <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                <span>Skills</span>
+            </li>
+            <li class="nav-item" data-section="projects">
+                <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                <span>Projects</span>
+            </li>
+            <li class="nav-item" data-section="certificates">
+                <svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                <span>Certificates</span>
+            </li>
+            <li class="nav-item" data-section="v1">
+                <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                <span>V1</span>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Main Content -->
+    <div class="main-content">
+        <!-- Profile Section -->
+        <div class="section active" id="profile">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="rehanphoto.jpg" alt="Rehan Rakesh">
+                </div>
+                <div class="profile-info">
+                    <h1>K Rehan Rakesh</h1>
+                    <h2>Software Developer</h2>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41 0 2.08-.8 3.97-2.1 5.39z"/></svg>
+                        <span class="contact-label">Resume:</span>
+                        <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="contact-value contact-link">View Resume</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+                        <span class="contact-label">Email:</span>
+                        <a href="mailto:rehanrakeshk@gmail.com" class="contact-value contact-link">rehanrakeshk@gmail.com</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                        <span class="contact-label">LinkedIn:</span>
+                        <a href="https://www.linkedin.com/in/rehanrakesh/" target="_blank" rel="noopener noreferrer" class="contact-value contact-link">linkedin.com/in/rehanrakesh</a>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <svg class="contact-icon" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34-.46-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.87 1.52 2.34 1.07 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.92 0-1.11.38-2 1.03-2.71-.1-.25-.45-1.29.1-2.64 0 0 .84-.27 2.75 1.02.79-.22 1.65-.33 2.5-.33.85 0 1.71.11 2.5.33 1.91-1.29 2.75-1.02 2.75-1.02.55 1.35.2 2.39.1 2.64.65.71 1.03 1.6 1.03 2.71 0 3.82-2.34 4.66-4.57 4.91.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2z"/></svg>
+                        <span class="contact-label">GitHub:</span>
+                        <a href="https://github.com/rehanrakesh" target="_blank" rel="noopener noreferrer" class="contact-value contact-link">github.com/rehanrakesh</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Experience Section -->
+        <div class="section" id="experience">
+            <div class="section-header">
+                <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                <h2>Experience</h2>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date"> - Present</div>
+                    <h3>Scholar Trainee</h3>
+                    <h4>WIPRO</h4>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">04/2023 - 09/2023</div>
+                    <h3>Python Fullstack Developer Intern</h3>
+                    <h4>Softroniics</h4>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-date">11/2022 - 04/2023</div>
+                    <h3>FullStack Developer Intern</h3>
+                    <h4>Inventron Technologies</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Education Section -->
+        <div class="section" id="education">
+            <div class="section-header">
+                <svg viewBox="0 0 24 24"><path d="M5 13.18v4L12 21l7-3.82v-4L12 17l-7-3.82zM12 3L1 9l11 6 9-4.91V17h2V9L12 3z"/></svg>
+                <h2>Education</h2>
+            </div>
+
+            <div class="education-item">
+                <div class="timeline-date">Edit</div>
+                <h3>M.Tech Cloud Computing for Working Professionals</h3>
+                <h4>Birla Institute of Technology And Science - Pilani (Distance)</h4>
+                <p>Currently pursuing M.Tech in Cloud Computing for Working Professionals, focusing on cloud infrastructure, virtualization, DevOps practices, and emerging technologies in scalable and secure cloud-based systems.</p>
+            </div>
+
+            <div class="education-item">
+                <div class="timeline-date">06/2021 - 08/2024</div>
+                <h3>Bachelor Of Computer Applications</h3>
+                <h4>Bangalore City University</h4>
+                <p><strong>CGPA: 7.5</strong> - Comprehensive study of computer science fundamentals, programming languages, and software engineering principles.</p>
+            </div>
+
+            <div class="education-item">
+                <div class="timeline-date">04/2020 - 04/2021</div>
+                <h3>Senior Secondary (XII), Computer Science</h3>
+                <h4>IHRD, Kerala</h4>
+                <p><strong>Score: 86%</strong> - Strong foundation in computer science principles with excellent academic performance.</p>
+            </div>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="section" id="skills">
+            <div class="section-header">
+                <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                <h2>Skills</h2>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0l4.6-4.6-4.6-4.6L16 6l6 6-6 6-1.4-1.4z"/></svg>
+                        Programming Languages
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="yellow">
+                            <span class="skill-icon">📄</span> JavaScript
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">🐍</span> Python
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">☕</span> Java
+                        </div>
+                        <div class="skill-tag" data-color="purple">
+                            <span class="skill-icon">🐘</span> PHP
+                        </div>
+                        <div class="skill-tag" data-color="purple">
+                            <span class="skill-icon">#</span> C#
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        Frontend Technologies
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="cyan">
+                            <span class="skill-icon">⚛️</span> React
+                        </div>
+                        <div class="skill-tag" data-color="green">
+                            <span class="skill-icon">▼</span> Vue.js
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">🅰️</span> Angular
+                        </div>
+                        <div class="skill-tag" data-color="white">
+                            <span class="skill-icon">▲</span> NextJS
+                        </div>
+                        <div class="skill-tag" data-color="orange">
+                            <span class="skill-icon">5</span> HTML5
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">3</span> CSS3
+                        </div>
+                        <div class="skill-tag" data-color="pink">
+                            <span class="skill-icon">🎨</span> SASS
+                        </div>
+                        <div class="skill-tag" data-color="cyan">
+                            <span class="skill-icon">🌊</span> Tailwind CSS
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                        Backend Technologies
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="green">
+                            <span class="skill-icon">📦</span> Node.JS
+                        </div>
+                        <div class="skill-tag" data-color="gray">
+                            <span class="skill-icon">⚡</span> Express.JS
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">🎼</span> Laravel
+                        </div>
+                        <div class="skill-tag" data-color="green">
+                            <span class="skill-icon">🎸</span> Django
+                        </div>
+                        <div class="skill-tag" data-color="gray">
+                            <span class="skill-icon">🧪</span> Flask
+                        </div>
+                        <div class="skill-tag" data-color="green">
+                            <span class="skill-icon">🍃</span> Spring Boot
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"/></svg>
+                        Databases
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="green">
+                            <span class="skill-icon">🍃</span> MongoDB
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">🐘</span> PostgreSQL
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">🐬</span> MySQL
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">🔴</span> Oracle 19c
+                        </div>
+                        <div class="skill-tag" data-color="yellow">
+                            <span class="skill-icon">🔥</span> Firebase
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">📊</span> Redis
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M19.35 10.04C18.67 6.59 15.64 4 12 4c-1.48 0-2.85.43-4.01 1.17l1.46 1.46C10.21 6.23 11.08 6 12 6c3.04 0 5.5 2.46 5.5 5.5v.5H19c1.66 0 3 1.34 3 3 0 1.13-.64 2.11-1.56 2.62l1.45 1.45C23.16 18.16 24 16.68 24 15c0-2.64-2.05-4.78-4.65-4.96zM3 5.27l2.75 2.74C2.56 8.15 0 10.77 0 14c0 3.31 2.69 6 6 6h11.73l2 2L21 20.73 4.27 4 3 5.27zM7.73 10l8 8H6c-2.21 0-4-1.79-4-4s1.79-4 4-4h1.73z"/></svg>
+                        Cloud & DevOps
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="orange">
+                            <span class="skill-icon">☁️</span> AWS
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">⊞</span> Azure
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">G</span> Google Cloud
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">🐳</span> Docker
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">☸️</span> Kubernetes
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">🤖</span> Jenkins
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z"/></svg>
+                        Development Tools
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="orange">
+                            <span class="skill-icon">◆</span> Git
+                        </div>
+                        <div class="skill-tag" data-color="gray">
+                            <span class="skill-icon">🐙</span> GitHub
+                        </div>
+                        <div class="skill-tag" data-color="orange">
+                            <span class="skill-icon">🦊</span> GitLab
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">📋</span> Jira
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">📦</span> NPM
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">📦</span> Webpack
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M20 17.17L18.83 16H4V4h16v13.17zM20 2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h14l4 4V4c0-1.1-.9-2-2-2z"/></svg>
+                        Operating Systems
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="yellow">
+                            <span class="skill-icon">🐧</span> Linux
+                        </div>
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">⊞</span> Windows
+                        </div>
+                        <div class="skill-tag" data-color="gray">
+                            <span class="skill-icon">🍎</span> macOS
+                        </div>
+                        <div class="skill-tag" data-color="orange">
+                            <span class="skill-icon">⚙️</span> Ubuntu
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/></svg>
+                        Design & CMS
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="blue">
+                            <span class="skill-icon">W</span> WordPress
+                        </div>
+                        <div class="skill-tag" data-color="purple">
+                            <span class="skill-icon">🎨</span> Figma
+                        </div>
+                        <div class="skill-tag" data-color="pink">
+                            <span class="skill-icon">Xd</span> Adobe XD
+                        </div>
+                        <div class="skill-tag" data-color="red">
+                            <span class="skill-icon">✏️</span> UI/UX Design
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>
+                        <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+                        Soft Skills
+                    </h3>
+                    <div class="skill-tags">
+                        <div class="skill-tag" data-color="gold">
+                            <span class="skill-icon">👑</span> Leadership
+                        </div>
+                        <div class="skill-tag" data-color="green">
+                            <span class="skill-icon">🤝</span> Team Player
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="section" id="projects">
+            <div class="section-header">
+                <svg viewBox="0 0 24 24"><path d="M20 6h-4V4c0-1.11-.89-2-2-2h-4c-1.11 0-2 .89-2 2v2H4c-1.11 0-1.99.89-1.99 2L2 19c0 1.11.89 2 2 2h16c1.11 0 2-.89 2-2V8c0-1.11-.89-2-2-2zm-6 0h-4V4h4v2z"/></svg>
+                <h2>Projects</h2>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg viewBox="0 0 24 24"><path d="M7 18c-1.1 0-1.99.9-1.99 2S5.9 22 7 22s2-.9 2-2-.9-2-2-2zM1 2v2h2l3.6 7.59-1.35 2.45c-.16.28-.25.61-.25.96 0 1.1.9 2 2 2h12v-2H7.42c-.14 0-.25-.11-.25-.25l.03-.12.9-1.63h7.45c.75 0 1.41-.41 1.75-1.03l3.58-6.49c.08-.14.12-.31.12-.48 0-.55-.45-1-1-1H5.21l-.94-2H1zm16 16c-1.1 0-1.99.9-1.99 2s.89 2 1.99 2 2-.9 2-2-.9-2-2-2z"/></svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Amazon Clone</h3>
+                        <p class="project-type">Frontend Web Application</p>
+                        <p class="project-description">→ Created a static Amazon clone with HTML and CSS, focusing on responsive design, UI elements, and cross-browser compatibility.<br>
+                        → Implemented responsive design principles for optimal viewing on various devices<br>
+                        → Integrated RESTful APIs for dynamic content loading and user authentication</p>
+                        <a href="https://rehanrakesh.github.io/Amazon-clone/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Project →</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p class="project-type">Personal Website</p>
+                        <p class="project-description">→ Developed a fully functional personal portfolio website using NextJS and React<br>
+                        → Created reusable components and utilized frontend libraries such as Tailwind<br>
+                        → Optimized for performance across various devices and browsers</p>
+                        <a href="https://rehanrakesh.github.io/Personal-Portfolio.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Project →</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Expense Tracker</h3>
+                        <p class="project-type">Data Analytics Web Application</p>
+                        <p class="project-description">→ Built a website using Node.js to analyze personal expenses<br>
+                        → Returns key data including spending patterns, category breakdowns, and more insights<br>
+                        → Streamlines budgeting process for individuals and families</p>
+                        <a href="https://rehanrakesh.github.io/Expense-Tracker.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Project →</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5.97 4.06L14.09 6l1.41 1.41L16.91 6l1.06 1.06-1.41 1.41 1.41 1.41-1.06 1.06-1.41-1.4-1.41 1.41-1.06-1.06 1.41-1.41-1.41-1.42zm-6.78.66h5v1.5h-5v-1.5zM11.5 16h-2v2H8v-2H6v-1.5h2v-2h1.5v2h2V16zm6.5 1.25h-5v-1.5h5v1.5zm0-2.5h-5V13.5h5v1.25z"/></svg>
+                    </div>
+                    <div class="project-content">
+                        <h3>Calculator</h3>
+                        <p class="project-type">Online Calculator</p>
+                        <p class="project-description">→ Developed an online calculator using HTML, CSS, and JavaScript<br>
+                        → Allows users to perform basic arithmetic operations<br>
+                        → Provides a user-friendly interface for quick calculations</p>
+                        <a href="https://rehanrakesh.github.io/calculator/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Project →</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Certificates Section -->
+        <div class="section" id="certificates">
+            <div class="section-header">
+                <svg viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+                <h2>Certificates</h2>
+            </div>
+
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <div class="cert-logo-text">ORACLE</div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Oracle Cloud Infrastructure 2025 Certified Foundations Associate</h3>
+                        <p class="cert-issuer">Oracle Certification</p>
+                        <p class="cert-description">Professional certification in various Oracle technologies and methodologies, demonstrating proficiency in enterprise-level solutions and practices.</p>
+                        <a href="https://catalog-education.oracle.com/ords/certview/sharebadge?id=A73E4903E541EA9BC3129E3FB522259FD8A4397F4894AA56FDC18F7E69CEAF75" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Certificate</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <div class="cert-logo-text">GOOGLE</div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Google Cybersecurity Professional Certificate</h3>
+                        <p class="cert-issuer">Google Certification</p>
+                        <p class="cert-description">Certification demonstrating proficiency in cloud security, secure application development, microservices architecture, and integration of Google Cloud Platform services.</p>
+                        <a href="https://www.coursera.org/account/accomplishments/professional-cert/YWWC25HJPGYY" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Certificate</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <div class="cert-logo-text">ACCENTURE</div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Data Analytics and Visualization Job Simulation</h3>
+                        <p class="cert-issuer">Accenture Certification</p>
+                        <p class="cert-description">Comprehensive certification covering Accenture's data platform services, data management, analytics, machine learning, and data integration solutions on Accenture Cloud.</p>
+                        <a href="https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_DCdgi5SeyNAQxrXoQ_1723018818589_completion_certificate.pdf" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Certificate</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <div class="cert-logo-text">IBM</div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Web Development Fundamentals, IBM SkillsBuild</h3>
+                        <p class="cert-issuer">IBM Certification</p>
+                        <p class="cert-description">Certification demonstrating foundational skills in web development, including HTML, CSS, and JavaScript, with hands-on experience in building responsive, user-friendly, and interactive web applications.</p>
+                        <a href="https://www.credly.com/badges/be198780-8de4-4010-aa07-a4008994cc8b/public_url" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Certificate</button>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-logo">
+                        <div class="cert-logo-text">UDEMY</div>
+                    </div>
+                    <div class="cert-content">
+                        <h3>Python and Django | The Complete Django Web Development Course</h3>
+                        <p class="cert-issuer">Udemy Certification</p>
+                        <p class="cert-description">Comprehensive certification demonstrating proficiency in Python programming, Django framework, and full-stack web development, including backend logic, database integration, and deployment of dynamic web applications.</p>
+                        <a href="https://www.udemy.com/certificate/UC-e83a542a-57c4-4a38-baaf-f75652458d70/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                            <button class="project-btn">View Certificate</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Previous Portfolio Version Section -->
+        <div class="section" id="v1">
+            <div class="section-header">
+                <svg viewBox="0 0 24 24"><path d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2v7zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3h-7z"/></svg>
+                <h2>Portfolio Version 1</h2>
+            </div>
+            <div style="padding: 50px 20px; text-align: center;">
+                <h3 style="color: #0f0; font-size: 32px; margin-bottom: 20px;">Previous Portfolio Version</h3>
+                <p style="color: #0f0; font-size: 18px; line-height: 1.8;">
+                    This section would link to the previous version of the portfolio.<br>
+                    Click below to view the earlier design and layout.
+                </p>
+                <a href="https://rehanrakesh.github.io/Personal-Portfolio.io/" target="_blank" rel="noopener noreferrer" style="text-decoration: none;">
+                    <button class="project-btn" style="max-width: 300px; margin: 30px auto;">View V1 Portfolio →</button>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <button class="next-btn" id="nextBtn">Next: Experience →</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
